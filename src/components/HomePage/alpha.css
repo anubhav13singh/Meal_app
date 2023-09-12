@@ -1,0 +1,37 @@
+.alpha{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.alphabet{
+    width: 25px;
+    height: 25px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    /* margin: 3px; */
+    background-color: rgb(146, 150, 146);
+}
+
+@media (max-width:500) {
+    .alphabet{
+    width: 1.5vw;
+    height: 2.5vw;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    /* margin: 0.6vw; */
+    background-color: rgb(84, 85, 84);
+    }
+    .alpha{
+        overflow-y: scroll;
+    }
+}

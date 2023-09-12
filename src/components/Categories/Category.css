@@ -1,0 +1,21 @@
+.category{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 80vh;
+    text-align: center;
+    cursor: pointer;
+}
+.category img{
+    width: 180px;
+    margin: 10px;
+    transition: all 0.4s ease;
+}
+.category img:hover{
+    transform: scale(1.07);
+}

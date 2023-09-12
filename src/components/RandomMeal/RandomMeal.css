@@ -1,0 +1,46 @@
+.random{
+    width: 100%;
+    min-height: 80vh;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.random img{
+    width: 250px;
+    border: 1px solid grey;
+    transition: all 0.4s ease;
+}
+.random img:hover{
+    transform: scale(1.04);
+}
+
+.random-grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.random-grid-btn{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.button{
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid grey;
+    background-color: darkcyan;
+    color: aliceblue;
+    outline: none;
+    border-radius: 10px;
+}
+.random-instructrion{
+    margin: 10px;
+    padding: 10px;
+}
+.random-instructrion h4{
+    font-size: 25px;
+    color: rgb(87, 87, 87);
+    margin-bottom: 15px;
+}
+

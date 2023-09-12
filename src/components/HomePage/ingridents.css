@@ -1,0 +1,44 @@
+ .recipe{
+    height: auto;
+    min-height: 80vh;
+    background-color: black;
+    color: rgb(87, 87, 87);
+    width: 100%;
+    cursor: pointer; 
+} 
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 100px;
+    margin: 0px 100px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.image{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.ingridents{
+    margin: 40px;
+}
+.instruction{
+    padding: 10px;
+    text-align: center;
+    color: rgb(87, 87, 87);
+
+}
+.btn{
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    color:  rgb(148, 143, 143); 
+    background-color: darkslategrey;
+}
+
